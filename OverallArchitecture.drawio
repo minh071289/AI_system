@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.4">
   <diagram name="Page-1" id="zunORlT1O7iowVO2a8UD">
-    <mxGraphModel dx="2562" dy="478" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2308" dy="338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="nLBTFklPhLYW6B8ExNoQ-140" value="&lt;div&gt;&lt;font&gt;4 ResStages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;(2 blocks/stage)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=6;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-1202.1707317073171" y="341" width="76.91056910569107" height="18.555215446197316" as="geometry" />
         </mxCell>
-        <mxCell id="nLBTFklPhLYW6B8ExNoQ-141" value="&lt;font&gt;MaxPooling&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=6;fontFamily=Verdana;" parent="1" vertex="1">
+        <mxCell id="nLBTFklPhLYW6B8ExNoQ-141" value="&lt;font&gt;GlobalAvgPooling&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=6;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-1202.1707317073171" y="363.3105721685896" width="76.91056910569107" height="18.555215446197316" as="geometry" />
         </mxCell>
         <mxCell id="nLBTFklPhLYW6B8ExNoQ-142" value="&lt;font&gt;Dense+Dropout&lt;/font&gt;&lt;div&gt;&lt;font&gt;+Dense&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=6;fontFamily=Verdana;" parent="1" vertex="1">
@@ -142,9 +142,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gXeePXMv9ta4LX_9qnAm-179" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;TFBlock&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="gXeePXMv9ta4LX_9qnAm-178">
+        <mxCell id="gXeePXMv9ta4LX_9qnAm-179" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;TFConvBlock&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="gXeePXMv9ta4LX_9qnAm-178">
           <mxGeometry x="-0.2292" y="-1" relative="1" as="geometry">
-            <mxPoint x="18" y="-4" as="offset" />
+            <mxPoint x="25" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gXeePXMv9ta4LX_9qnAm-184" value="" style="endArrow=none;html=1;rounded=0;align=right;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;spacingRight=34;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
